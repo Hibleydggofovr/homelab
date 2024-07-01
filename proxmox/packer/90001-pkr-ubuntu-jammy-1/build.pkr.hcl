@@ -7,7 +7,7 @@ source "proxmox-iso" "pkr-ubuntu-jammy-1" {
   node                      = "prx-prod-1"
   vm_id                     = "90001"
   vm_name                   = "pkr-ubuntu-jammy-1"
-  template_description      = "Ubuntu 24.04.4 LTS"
+  template_description      = "Ubuntu 22.04.4 LTS"
 
   iso_file                  = "local:iso/ubuntu-22.04.4-live-server-amd64.iso"
   iso_storage_pool          = "local"
