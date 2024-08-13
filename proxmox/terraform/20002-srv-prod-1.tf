@@ -44,7 +44,8 @@ resource "proxmox_vm_qemu" "srv-prod-1" {
     lifecycle {
         ignore_changes = [
             disk,
-            vm_state
+            vm_state,
+            sshkeys
         ]
     }
     
